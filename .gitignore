@@ -7,3 +7,29 @@ data/raw/twcs.csv
 
 training/outputs/models/priority_classifier.pkl
 backend/app/models/priority_classifier.pkl
+
+backend/app/data/logs/
+logs/
+
+
+# ============================================
+# Python Cache
+# ============================================
+__pycache__/
+*.py[cod]
+*.pyo
+
+# ============================================
+# Frontend (Node)
+# ============================================
+node_modules/
+frontend/build/
+
+
+# ============================================
+# OS Files
+# ============================================
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
