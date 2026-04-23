@@ -2,7 +2,8 @@
 .env
 chroma_data/
 
-data/
+data/processed/tickets_with_labels.csv
+data/raw/twcs.csv
 
 training/outputs/models/priority_classifier.pkl
 backend/app/models/priority_classifier.pkl
