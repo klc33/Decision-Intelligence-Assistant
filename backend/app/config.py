@@ -26,7 +26,7 @@ class Settings:
     SIMILARITY_THRESHOLD: float = float(os.getenv("SIMILARITY_THRESHOLD", "0.5"))
 
     # ML Model path
-    MODEL_PATH: Path = PROJECT_ROOT / "backend" / "app" / "models" / "priority_classifier.pkl"
+    MODEL_PATH: Path = Path(__file__).parent / "models" / "priority_classifier.pkl"
 
     # Logging
     LOG_LEVEL: str = os.getenv("LOG_LEVEL", "INFO")
