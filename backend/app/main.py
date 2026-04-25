@@ -1,6 +1,7 @@
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
 from app.routers import query, health
+from app.utils.logging import logger
 
 app = FastAPI(title="Decision Intelligence Assistant API")
 

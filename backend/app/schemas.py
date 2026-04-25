@@ -29,7 +29,6 @@ class MLPrediction(BaseModel):
 class LLMPrediction(BaseModel):
     prediction: str
     reasoning: str
-    confidence: float = 0.0  # Now a float, 0-1 range
     latency_ms: float
     cost_usd: float
 

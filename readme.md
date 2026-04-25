@@ -143,7 +143,7 @@ cp .env.example .env
 3.
 python scripts/prepare_data.py          # ~500k cleaned customer tweets
 python training/train.py                # Train ML classifier
-python scripts/build_solutions_store.py # Build ChromaDB with company replies
+python scripts/build_chunked_solutions_store.py # Build ChromaDB with company replies
 
 4.
 cd backend

@@ -37,10 +37,7 @@ export default function ComparisonPanel({ mlPriority, llmPriority }) {
             <p className="reasoning">Reason: {llmPriority.reasoning}</p>
           )}
           <div className="metrics-row">
-            <MetricsCard
-                label="Confidence"
-                value={llmPriority?.confidence != null ? formatConfidence(llmPriority.confidence) : 'N/A'}
-            />
+
             <MetricsCard
               label="Latency"
               value={llmPriority?.latency_ms != null ? formatLatency(llmPriority.latency_ms) : '-'}
